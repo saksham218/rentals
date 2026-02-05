@@ -1,0 +1,31 @@
+{
+ "attach_files": "",
+ "attach_print": 0,
+ "channel": "Email",
+ "condition_type": "Python",
+ "creation": "2026-01-26 15:43:54.674066",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Order",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hey, new booking has arrived!\n<a href=\"http://abc.cabs:8000/app\u201d>Click here to view</a>",
+ "message_type": "HTML",
+ "minutes_offset": 0,
+ "modified": "2026-01-26 16:25:23.754072",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "New Ride Order",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "{{doc.customer_name}} booked a ride"
+}

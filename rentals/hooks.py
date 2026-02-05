@@ -161,6 +161,12 @@ app_license = "mit"
 # 	],
 # }
 
+scheduler_events = {
+	"daily": [
+		"rentals.tasks.daily"
+	]
+}
+
 # Testing
 # -------
 
